@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>RegEx Form</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <h1>New User Signup</h1>
+        <form>
+
+            <input type="text" name="username" placeholder="username">
+            <p>Username must be  and contain 5 - 12 characters</p>
+
+            <input type="text" name="email" placeholder="email">
+            <p>Email must be a valid address, e.g. me@mydomain.com</p>
+
+            <input type="password" name="password" placeholder="password">
+            <p>Password must alphanumeric (@, _ and - are also allowed) and be 8 - 20 characters</p>
+
+            <input type="text" name="telephone" placeholder="telephone">
+            <p>Telephone must be a valid India telephone number (10 digits)</p>
+
+            <input type="text" name="slug" placeholder="profile slug">
+            <p>Slug must contain only lowercase letters, numbers and hyphens and be 8 - 20 characters</p>
+        </form>
+
+        <script type="text/javascript" src="app.js"></script>
+        <!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="/__/firebase/8.9.1/firebase-app.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+<script src="/__/firebase/8.9.1/firebase-analytics.js"></script>
+
+<!-- Initialize Firebase -->
+<script src="/__/firebase/init.js"></script>
+    </body>
+</html>
